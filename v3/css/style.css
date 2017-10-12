@@ -1,0 +1,485 @@
+/*start header*/
+
+.header {
+    background-image: url(../images/slide1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+.header .navbar {
+    overflow: hidden;
+    color: #000;
+}
+
+.header .navbar h3 {
+    margin: 4% 0;
+    float: left;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    margin-top: 4%;
+}
+
+.header .navbar ul li {
+    display: inline;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.header .slider {
+    text-align: center;
+    margin: 20% auto;
+    color: #fff;
+}
+
+.header .slider h2 {
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+/*end header*/
+
+
+/*start thumb*/
+
+.thumb {
+    margin: 5% 0;
+    height: 150px;
+    background-color: #161616;
+    text-align: center;
+}
+
+.thumb img {
+    margin: 2.5% 1.5%;
+}
+
+
+/*end thumb*/
+
+
+/*start services*/
+
+.services {
+    height: 600px;
+    overflow: hidden;
+}
+
+.services .info-box {
+    border: 3px solid #000;
+    width: 580px;
+    height: 220px;
+    text-align: center;
+    margin: 1% auto;
+    padding: 3%;
+}
+
+.services .services-section {
+    overflow: hidden;
+}
+
+.services .services-section .service {
+    margin: 5% 0;
+    float: left;
+    width: 33.33333%;
+    height: 200px;
+    text-align: center;
+}
+
+.services .services-section .service h4 {
+    margin: 10% 0;
+    text-transform: capitalize;
+    font-size: 23px;
+    Font-weight: bold;
+    Line-height: 23px;
+}
+
+.services .services-section .service p {
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 23px;
+    color: rgb(136, 136, 136);
+}
+
+
+/*end services*/
+
+
+/*start about us*/
+
+.about_us {
+    background-image: url(../images/FireShot%20Capture%20005%20-%20%20-%20http___nurse-ostritch-50471.bitballoon.com_.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: #FFF;
+}
+
+.about_us .info-box {
+    border: 3px solid #FFF;
+    width: 580px;
+    height: 220px;
+    text-align: center;
+    margin: 10% auto;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.about_us .story {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.about_us .story h4,
+h5 {
+    text-transform: capitalize;
+}
+
+.about_us .story p {
+    line-height: 1.7
+}
+
+.about_us .choose_us {
+    float: left;
+    width: 50%;
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.about_us .choose_us .fetures1 {
+    background-color: #161616;
+    padding: 3px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.about_us .choose_us .fetures1 p {
+    line-height: 1.7;
+}
+
+.about_us .choose_us .fetures2 {
+    background-color: #161616;
+    padding: 1px 20px 1px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.about_us .choose_us .fetures3 {
+    background-color: #161616;
+    padding: 1px 20px 1px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.about_us .counter .count {
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+.about_us .counter hr {
+    width: 1px;
+    height: 70px;
+    border: 0;
+    background-color: #FFF;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+
+/*end about us*/
+
+
+/*start our team*/
+
+.team {
+    background-color: #f3f3f3;
+    overflow: hidden;
+    height: 1100px;
+}
+
+.team .info-box {
+    border: 3px solid #000;
+    width: 580px;
+    height: 220px;
+    text-align: center;
+    margin: 10% auto;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.team .team_info {}
+
+.team .team_info .team_info_box {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #000;
+    margin-left: 25px;
+}
+
+.team .team_info .team_info_box img {
+    width: 100%;
+}
+
+.team .team_info .team_info_box h3{color:#FAAF16}
+
+
+/*end our team*/
+
+
+/* start portfolio*/
+
+.portfolio {}
+
+.portofolio .info-box {
+    border: 3px solid #000;
+    width: 580px;
+    height: 220px;
+    text-align: center;
+    margin: 10% auto;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.portofolio .portofolio_images>div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+
+.portofolio .portofolio_images img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 20px #CCC;
+}
+
+.portofolio .info {
+    text-align: center;
+    margin-top: 8%;
+    height: 325px;
+}
+
+.portofolio .info h2 {
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.portofolio .info p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757A7D;
+}
+
+.portofolio .info button {
+    background: #FFA600;
+    color: #fff;
+    border: 0;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.portofolio .info button:hover {
+    background-color: #000;
+    color: #FFA600;
+}
+
+
+/*end portfolio*/
+
+
+/*start plans*/
+
+.plans {
+    background-image: url(../images/plan-bg.jpg);
+    height: 1050px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: #fff;
+}
+
+.plans .info-box {
+    border: 3px solid #fff;
+    width: 580px;
+    height: 220px;
+    text-align: center;
+    margin: 10% auto;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.plans .plans_boxes {
+    border: 3px solid #fff;
+    height: 388px;
+    width: 267px;
+    float: left;
+    overflow: hidden;
+    margin-left: 6%;
+    margin-top: 7%;
+    padding: 15px;
+}
+
+.plans .plans_boxes h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.plans .plans_boxes p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.plans .plans_boxes p span {
+    color: #F2AB01
+}
+
+.plans .plans_boxes ul li {
+    line-height: 1.7;
+}
+
+.plans .plans_boxes button {
+    background: none;
+    border: 1px solid #fff;
+    border-bottom-style: none;
+    padding: 15px;
+    margin-left: 25%;
+    margin-top: 10%;
+    color: #fff;
+}
+
+
+/*end plans*/
+
+
+/*start contact us*/
+
+.contactus {
+    height: 1100px;
+}
+
+.contactus .info-box {
+    border: 3px solid #000;
+    width: 580px;
+    height: 220px;
+    text-align: center;
+    margin: 10% auto;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.contactus .contact {
+    padding-left: 15%;
+}
+
+.contactus .contact input[type="text"] {
+    padding: 15px;
+    margin: 2% auto;
+    cursor: pointer;
+}
+
+.contactus .contact textarea {
+    width: 750px;
+    height: 200px;
+    text-align: center;
+    margin: 0 5%;
+    padding-top: 3%;
+    cursor: pointer;
+}
+
+.contactus .contact input[type="submit"] {
+    background: #000;
+    border: 1px solid #000;
+    border-bottom-style: none;
+    padding: 15px;
+    margin-left: 3%;
+    width: 81%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contactus .contact input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.contactus .contact_info .contact_box {
+    float: left;
+    display: inline-block;
+    border: 2px solid #000;
+    text-align: center;
+    margin: 0px auto;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 6%;
+    padding: 2%;
+    text-align: center;
+}
+
+.contactus .contact_info .contact_box:nth-child(2) {
+    margin-left: 0;
+}
+
+
+/*end contact us*/
+
+
+/*start footer*/
+
+.footer {
+    background-color: #f1f1f1;
+    height: 50px;
+}
+
+.footer p {
+    color: #4B5F68;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+/*end footer*/
+
+
+/*======FW R1z======*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h6{color:#FAAF16;
+}
+
+i{
+    color:#000;
+}
+/*======EOF FW R1z======*/
