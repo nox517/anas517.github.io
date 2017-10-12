@@ -84,7 +84,7 @@
 }
 
 .services .services-section .service {
-    margin: 5% 0;
+    margin: 2% 0;
     float: left;
     width: 33.33333%;
     height: 200px;
@@ -92,17 +92,24 @@
 }
 
 .services .services-section .service h4 {
-    margin: 10% 0;
     text-transform: capitalize;
     font-size: 23px;
     Font-weight: bold;
-    Line-height: 23px;
+    display: inline-block;
+}
+
+.services .services-section .service .fa {
+    display: inline-block;
+    position: relative;
+    top: 19px;
+    right: 15px;
+    color: #FFA302;
 }
 
 .services .services-section .service p {
     Font-size: 20px;
     Font-weight: 400;
-    Line-height: 23px;
+    Line-height: 1.7;
     color: rgb(136, 136, 136);
 }
 
@@ -233,7 +240,19 @@ h5 {
     width: 100%;
 }
 
-.team .team_info .team_info_box h3{color:#FAAF16}
+.team .team_info .team_info_box h3 {
+    color: #FAAF16
+}
+
+.team .team_info .team_info_box .icon {
+    margin: 10% 0;
+}
+
+.team .team_info .team_info_box .icon i {
+    padding: 0 5%;
+    text-align: center;
+    color: #FFA600;
+}
 
 
 /*end our team*/
@@ -426,10 +445,22 @@ textarea:focus {
     text-align: center;
     margin: 0px auto;
     width: 40%;
-    margin-left: 7%;
+    margin-left: 5%;
     margin-top: 6%;
     padding: 2%;
     text-align: center;
+}
+
+.contactus .contact_info .contact_box h2 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.contactus .contact_info .contact_box .fa {
+    display: inline-block;
+    position: relative;
+    right: 15px;
+    color: #FFA302;
 }
 
 .contactus .contact_info .contact_box:nth-child(2) {
@@ -443,12 +474,21 @@ textarea:focus {
 /*start footer*/
 
 .footer {
-    background-color: #f1f1f1;
-    height: 50px;
+    overflow: hidden;
+    background-color: #161616;
+    color: #fff;
+}
+
+.footer .footer_icon {
+    text-align: center;
+}
+
+.footer .footer_icon i {
+    color: #FFA302;
+    margin-right: 5px;
 }
 
 .footer p {
-    color: #4B5F68;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -459,7 +499,7 @@ textarea:focus {
 /*end footer*/
 
 
-/*======FW R1z======*/
+/*======framework R1z======*/
 
 body {
     margin: 0;
@@ -476,10 +516,13 @@ body {
     clear: both;
 }
 
-h6{color:#FAAF16;
+h6 {
+    color: #FAAF16;
 }
 
-i{
-    color:#000;
+.line_h {
+    line-height: 1.7;
 }
-/*======EOF FW R1z======*/
+
+
+/*======EOF framework R1z======*/
