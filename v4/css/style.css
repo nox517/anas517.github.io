@@ -115,8 +115,7 @@
 }
 
 .about .info_boxes span {
-    margin: 15px;
-    /* display: inline-block; */
+  display: block;
     color: #888888;
     text-align: center;
     font-weight: bold;
