@@ -35,6 +35,14 @@
     /* width: 100%; */
     text-align: center;
 }
+.header .slider .info p{
+     text-align: center;
+    line-height: 1.8;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+   
 
 .header .slider .info button {
     margin: 4%;
