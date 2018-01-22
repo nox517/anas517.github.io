@@ -334,7 +334,9 @@
 }
 
 
-.contact input[type="text"] ,input[type="email"]  , .contact textarea {
+
+
+.contact input[type="text"] ,input[type="email"] {
     background-color: transparent;
     outline: 0;
     border: 0;
@@ -345,15 +347,24 @@
     color: rgba(0,0,0,0.6);
     text-align: right;
     font-size: 19px;
+    
 }
 
-.contact input:last-of-type{margin-left: 5%;}
+.contact input[type="email"]{margin-right: 5%}
 
 .contact textarea{
-    margin: 5% auto;
+    margin: 5% 0;
     width: 95%;
     height: 200px;
     resize: none;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6);
+    text-align: right;
+    font-size: 19px;
 }
 
 @media(max-width:767px) {
@@ -361,9 +372,11 @@
         display: block;
         width: 100%;
         text-align: center;
+        margin: 0 !important;
     }
     .contact textarea{
         text-align: center;
+        width: 100%;
     }
 
     .contact form input[type="submit"], .contact form input[type="reset"]{
@@ -376,14 +389,16 @@
 
 /*################### Start Follow Me Section /*################### */
 .follow-Me .icons i{transition: all 1s ease}
-.follow-Me .icons i:not(:last-of-type){margin-left: 5%}
+.follow-Me .icons i{margin-right: 5%}
+.follow-Me .icons i:first-of-type{margin-right: 0}
 .follow-Me .icons i:hover{transform: scale(1.8)}
 
 @media(min-width : 320px) and (max-width:991px) {
     .follow-Me .icons i{
-        margin: 5% auto;
-        margin-left: 10%;
+        margin: 10% auto;
+        padding: 0 5%;
     }
+  
 
 }
 
